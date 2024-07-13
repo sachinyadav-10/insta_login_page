@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+
+        }
+        .box{
+            display: block;
+            /*it occupy all the space of that elemnt where you use 40% or 100% but space will be occupied fully*/
+            background-color: red;
+            height: 60px;
+            width: 70px;
+            border: 2px solid black;
+        }
+        .box_inline{
+            display: inline;
+            /* it take size according to content no offect of height and width given*/
+            height: 10000px;
+            width: 0%;
+            background-color: blue;
+            border: 2px solid black;
+        }
+        .box_inline-block{
+            /* it takes the height and width also and also not occupy the full space of block as block propert do*/
+            display: inline-block;
+            background-color: green;
+            height: 60px;
+            width: 70px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    display
+     1) block....(bydefault)
+     2)inline.....
+     3)inline-block
+      -->
+    <br>
+
+    <div class="box">king</div>
+    <div class="box">king</div>
+    <br>
+    <div class="box_inline">king is khan</div>
+    <div class="box_inline">sachin</div>
+    <br>
+    <br>
+    <div class="box_inline-block">king</div>
+    <div class="box_inline-block">king</div>
+</body>
+</html>

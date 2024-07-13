@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+     
+<!--  //   -->
+    <style>
+        
+        *{
+            /* margin is use to get space outside of the element */
+            margin:7px 5px;/* x-axis[top-bottom] y-axis[left-right] */
+            /* margin-left:10px */
+            /* margin-right:10px */
+            
+          
+        }
+        .sachin{
+            color: black;
+            text-align:center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform:capitalize;
+            text-shadow: 3px 3px 5px powderblue;
+            background-color:grey;
+            box-shadow: 2px 2px 10px grey;
+            /* box shadow ke jo 3 paramenter hai voh hai x direction,y direction, blur kinta krna hai*/
+            border-color: blueviolet;
+            border-radius: 15px;
+              /* it is use to get space form inside of element .... try it with changing it 0,10,100 */
+              padding: 10px 10px;
+                    
+        }
+
+        .box{
+            background-color: black;
+            box-shadow: 5px 5px 15px blue;
+            color:whitesmoke;
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            box-sizing: border-box; /*by defalut it set to content-box insted of border-box*/
+            /* it is use to fix the size of tis black box wihout effect of padding size or content size
+            if we dont use this then it will chaange the size of box according to other things size like padding aur content size 
+            (the size of these will get add to box size and it get bigger then defined size... try it by changeing the box-sizing to content-box insted of border-box )
+             */
+        }
+
+     </style>
+</head>
+<body>
+    <!-- inline css -->
+    <!-- <h1 style="color: red; text-align :center; font-style:italic; box-shadow: 0px 0px 8px; padding:10px;text-transform:uppercase;text-shadow:2px 2px 8px yellow;border-radius:100px;letter-spacing:2px;">this is only an heading</h1> -->
+    <!-- internal -->
+     <h1 class="sachin" >this is demo of exernal css</h1>
+     <h2 class="sachin" >this is another heading</h2>
+     <div class="box">div me kaise kaam krega</div>
+
+    </body>
+</html>

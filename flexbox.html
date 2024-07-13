@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+            font-family: sans-serif;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content:space-evenly;/*always horizontal apply(left-right)*/
+            align-content:center;/*use to apply vertically(top-down)*/
+            flex-wrap: wrap;/*use to break the box  into more rows insted of being in one only row*/
+            background-color: antiquewhite;
+           
+        }
+        .box{
+
+           
+            background-color:brown;
+            height: 100px;
+            width: 20%;
+            border: 2px solid black;
+            /*margin: 2px;*/
+            /* to control the space between box acoording to screen*/
+            flex-grow: 1;/*this will grow the box accoding to screen to cover the space*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        
+</body>
+</html>

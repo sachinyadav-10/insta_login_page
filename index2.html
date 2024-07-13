@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+
+    <form action="/getform/" method="post">
+        <!-- post........ secure + large data 
+             get..........not secure
+             -->
+        <label for="username" style="color: blue;"> NAME : </label><input placeholder="Enter your name" disabled type="text" id="username"><br/>
+        <br>
+
+        <label for="email" style="color: blue;">E-Mail : </label><input required placeholder="enter e-mail" type="text" id="email"><br/>
+       <br>
+
+        <label for="password" style="color: blue;">Password : </label><input required type="password" placeholder="enter password" id="password"><br/>
+       <br>
+
+       
+        <label for="gender" style="color: blue;">Gender : </label> <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female        
+                <br/>
+        <br>
+       
+         <label for="file"  style="color:brown;">File :</label><input id="file" type="file"> <br>
+        <br>
+
+        <label for="date">Date :</label><input type="date" id="date"><br/>
+        <br>
+
+        <label for="city">City :</label>
+        <select name="" id="">
+            <option value="">None</option>
+            <option value="">Alwar</option>
+            <option value="">Jaipur</option>
+            <option value="">Udaipur</option>
+        </select>
+         <br><br/>
+        
+        <label for="language">language :</label>
+        <input type="checkbox">English
+        <input type="checkbox">Hindi
+        <input type="checkbox">Spanish
+         <br> <br>
+        
+        <label for="colour">colour :</label> <input type="color"> <br>
+       <br>
+
+        <label for="hidden">Hidden :</label> <input type="hidden">
+        <br> <br>
+        
+        <label for="textarea1">Feedbback</label>
+        <textarea name="" id="textarea1" rows="5" cols="20" placeholder="enter your message here"></textarea>
+        <br> <br>
+        
+        <label for="range">Range :</label> <input type="range">
+        <br> <br>
+        
+        <label for="time">Time :</label> <input id="time" type="time"> <br>
+        <br> <br>
+
+        <button style="color: green;">Submit</button>
+    </form>
+    
+</body>
+</html>
