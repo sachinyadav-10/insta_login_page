@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Instagram</title>
+     <link
+            rel="icon"
+            href=
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png
+type="image/x-icon"
+        />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      #s124 {
+        border: 0px solid black;
+        width: 120%;
+        margin-top:0px;
+        margin-left:20px;
+        text-align: center;
+        padding: 19px 10px;
+        box-shadow: 0px 0px 2px rgb(129, 109, 109);
+        margin-top: 30px;
+        border-radius: px;
+        font-size: 13px;
+      }
+      .userform {
+        border: 0px solid black;
+        width: 120%;
+        margin: 10px;
+        margin-bottom: -19px;
+        margin-left: 20px;
+        padding: 15px 0px;
+        box-shadow: 0px 0px 2px rgb(129, 109, 109);
+        margin-top: 30px;
+        border-radius: px;
+        height: fit-content;
+      }
+      .photocontain {
+        padding-top: 30px;
+        margin: 0px;
+        margin-left: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 8px;
+        height: 550px;
+        width: 300px;
+      }
+      #buton{
+        background-color: rgb(81, 145, 240);
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 9px;
+        border-radius: 8px;
+        font-weight: bold;
+        margin: 10px 40px;
+        width: 75%;
+        height: 30px;
+      }
+      #buton:hover {
+        background-color: blue;
+        cursor: pointer;
+      }
+      h1 {
+        text-align: center;
+        font-weight: 6000;
+        font-family:sans-serif ;
+        padding: 30px;
+        font-size: 30px;
+      }
+      .form {
+        margin: 0px 0px;
+      }
+      input {
+        width: 75%;
+        text-align: left;
+        margin: 3px 40px;
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 2px;
+        border: 1px solid rgb(208, 206, 206);
+        outline-color:grey;
+        height: 35px;
+      }
+      .login{
+        height: 100vh;
+        display: flex;
+      }
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column ; /*use to break the box  into more rows insted of being in one only row*/
+      }
+      h6 {
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 10px;
+      }
+
+      .s123 {
+        letter-spacing: 1px;
+        font-weight: lighter;
+      }
+      #s121 {
+        text-align: center;
+        padding: 20px;
+        height: 60px;
+        font-size: 13px;
+        font-family:Arial, Helvetica, sans-serif;
+        word-spacing: 1px;
+        letter-spacing: px;
+      }
+      a {
+        text-decoration: none !important;
+      }
+      #s122 {
+        text-align: center;
+        padding: 1px;
+        font-weight: 1px;
+        font-size: 12px;
+      }
+      .footer1{
+        display: flex;
+        
+      }
+      .box{
+        width: 100px;
+        padding: 1px;
+        margin: 2px;
+        font-weight: 10px;
+        outline: none;
+        
+        
+
+      }
+      footer{
+        padding: 70px;
+        width: 70%;
+        text-align: center;
+        margin-left: 200px;
+        font-weight: 10px;
+        outline: none;
+      }
+      #facebooklogo{
+        margin:-1px;
+        padding: px;
+        height: 17px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <div class="photocontain">
+        <img
+          src="https://apkresult.io/wp-content/uploads/2024/04/iglookup-mod-1-300x447.webp"
+          alt="dome photo"
+        />
+      </div>
+      <div class="container">
+        <div class="userform">
+          <h1>Instagram</h1>
+          <form action="">
+            <div class="username">
+              <label for="username"></label>
+              <input
+                placeholder="Phone number, username, or email"
+                type="text"
+                required
+              />
+            </div>
+            <div class="passwd">
+              <label for="passwd"></label>
+              <input
+                placeholder="Password"
+                type="password"
+                required
+              />
+            </div>
+            <div class="button">
+              <button type="button" id="buton">Log In</button>
+            </div>
+            <h6>
+              <span class="s123">------------------</span><strong> OR </strong
+              ><span class="s123">-----------------</span>
+            </h6>
+            <div id="s121">
+              <a href="https://faceboook.com/login"  style="color:darkblue"> <img id="facebooklogo" src="https://seeklogo.com/images/F/facebook-icon-logo-AEF3A8F447-seeklogo.com.png" alt=" facbook logo">  Log in with Facebok</a>
+            </div>
+            <div id="s122">
+              <a href="https://instagram.com" style="color: royalblue;">forget password?</a>
+            </div>
+          </form>
+        </div>
+        <form action="post">
+          <div id="s124">
+            <p>Don't have an account? <a href="https://instagram/signup" style="color: darkblue;;"><b>sign up</b></a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+        <div class="footer1">
+       
+            <div class="box"> Meta</div>
+            <div class="box">About</div>
+            <div class="box">Blog</div>
+            
+            <div class="box">Jobs</div>
+            <div class="box">Help</div>
+            <div class="box">APIPrivacy</div>
+            
+            <div class="box">Terms</div>
+            <div class="box">Locations</div>
+            <div class="box">Instagram Lite</div>
+            <div class="box">Threads</div>
+            <div class="box">Contact Uploading & Non-Users</div>
+            <div class="box">Meta Verified</div>
+            <div class="box">English</div>
+            <div class="box">© 2024 Instagram from Meta</div>
+
+            </div>
+    </footer>
+  </body>
+</html>
